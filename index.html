@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>狗狗歲數計算機</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero 區塊（含背景圖） -->
+  <section class="hero">
+    <h1>🐾 狗狗歲數計算機</h1>
+  </section>
+
+  <div class="container">
+
+    <label class="label-title">狗狗的出生日期：</label>
+    <input type="date" id="birthDate" class="date-picker">
+
+    <button id="calc" class="btn">開始計算</button>
+
+    <div class="gray">
+      <p>🐶 狗狗現在的年齡：<span id="result">（計算後會顯示）</span></p>
+      <p>👨‍🦳 換算人類年齡：<span id="result2">（計算後會顯示）</span></p>
+      <p>🎂 下一次生日倒數：<span id="birthday">（計算後會顯示）</span></p>
+
+      <div class="progress-container">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+
+    <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(20)30203-9" target="_blank">
+      ➤ 換算公式文獻來源
+    </a>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
